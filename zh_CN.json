@@ -1,0 +1,93 @@
+{
+  "Name": "Philips Hue",
+  "Category": "Philips Hue",
+  "Description": "控制您的 Philips Hue 灯。",
+  "com.elgato.philips-hue.power": {
+    "Name": "开/关",
+    "Tooltip": "打开或关闭灯。",
+    "States": [{
+      "Name": "开"
+    },
+    {
+      "Name": "关"
+    }]
+  },
+  "com.elgato.philips-hue.color": {
+    "Name": "颜色",
+    "Tooltip": "设置灯的颜色。"
+  },
+  "com.elgato.philips-hue.cycle": {
+    "Name": "颜色循环",
+    "Tooltip": "在灯光颜色之间循环。"
+  },
+  "com.elgato.philips-hue.brightness": {
+    "Name": "亮度",
+    "Tooltip": "设置灯的亮度。"
+  },
+  "com.elgato.philips-hue.scene": {
+    "Name": "场景",
+    "Tooltip": "设置场景。"
+  },
+  "Localization": {
+    "PI": {
+      "Bridge": "桥接器",
+      "NoBridges": "没有桥接器",
+      "AddBridge": "添加",
+      "Lights": "灯",
+      "Group": "组",
+      "LightsTitle": "灯",
+      "GroupsTitle": "组",
+      "NoLights": "没有灯",
+      "NoGroups": "没有组",
+      "Color": "颜色",
+      "Colors": "颜色",
+      "Temperature": "温度",
+      "Brightness": "亮度",
+      "Scene": "场景",
+      "NoScenes": "没有场景"
+    },
+    "Setup": {
+      "Intro": {
+        "Title" : "添加桥接器",
+        "Description": "与 Philips Hue 桥接器配对以控制您的灯。",
+        "Start": "寻找桥接器",
+        "Manual": "Add Bridge manually",
+        "Close": "不是现在"
+      },
+      "Discovery": {
+        "Title" : "正在寻找桥接器...",
+        "TitleNone" : "没有找到桥接器",
+        "TitleOne" : "找到一个桥接器",
+        "TitleMultiple" : "找到 {{ number }} 个桥接器",
+        "DescriptionFound": "要现在开始配对吗？",
+        "DescriptionNone": "确保桥接器已打开并已联网。",
+        "Pair": "配对",
+        "Close": "关闭",
+        "Retry": "重试"
+      },
+      "Manual": {
+        "Title": "Bridge manuell hinzufügen",
+        "Description": "Fügen Sie Ihre Philips Hue-Bridge manuell über die IP-Adresse in Ihrem Netzwerk hinzu, falls Auto-Discovery bei Ihnen nicht unterstützt wird.",
+        "IPAddress": "IP Adresse der Bridge",
+        "Check": "Eingabe überprüfen",
+        "Close": "Schließen",
+        "Error": {
+          "Empty": "Bitte tragen Sie eine IP Adresse in das Eingabefeld ein.",
+          "Invalid": "Die eingetragene IP Adresse hat ein ungültiges Format. Bitte überprüfen Sie Ihre Eingabe.",
+          "Unreachable": "Die Bridge ist unter der IP Adresse nicht erreichbar. Bitte überprüfen Sie Ihre Eingabe."
+        }
+      },
+      "Pairing": {
+        "Title" : "正在配对...",
+        "Description": "现在请按下桥接器上的连接按钮。",
+        "Close": "关闭",
+        "Retry": "重试"
+      },
+      "Save": {
+        "Title" : "桥接器已添加",
+        "Description": "已与桥接器配对成功。",
+        "Save": "完成"
+      }
+    }
+  }
+}
